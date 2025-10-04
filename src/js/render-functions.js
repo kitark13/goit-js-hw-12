@@ -42,3 +42,13 @@ export function hideLoader() {
   const loader = document.querySelector('.loader');
   loader.classList.add('is-unactive');
 }
+
+export function showLoadMoreButton() {
+  const loadMoreBtn = document.querySelector('.load-btn');
+  loadMoreBtn.classList.remove('is-unactive');
+}
+
+export function hideLoadMoreButton() {
+  const loadMoreBtn = document.querySelector('.load-btn');
+  loadMoreBtn.classList.add('is-unactive');
+}
